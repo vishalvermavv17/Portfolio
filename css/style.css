@@ -10,6 +10,8 @@
 }
 #intro{
     margin-top: 50px;
+    background: transparent;
+    align-items: center;
 }
 
 /* social icons slilde in animation */ 
@@ -97,3 +99,15 @@
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+
+body{
+    margin: 0px;
+    height: 100vh;
+}
+#particles-js{
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    z-index: -20;
+}
+
